@@ -140,13 +140,13 @@ p{
 
 .pic{
     width: 20%;
-    padding: 10%;
+    padding: 2%;
 }
 
 .img_gal{
 
     width: 110%;
-    padding: 12%;
+
 }
 
 @media screen and (max-width: 768px) {
