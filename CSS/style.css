@@ -133,7 +133,21 @@ p{
     overflow: auto;
 }
 
+.galeria{
+    display: flex;
+    flex-wrap: row wrap;
+}
 
+.pic{
+    width: 20%;
+    padding: 10%;
+}
+
+.img_gal{
+
+    width: 110%;
+    padding: 12%;
+}
 
 @media screen and (max-width: 768px) {
     .sc1{
