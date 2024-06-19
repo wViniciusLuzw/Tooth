@@ -28,7 +28,10 @@ body{
 }
 
 .sc2{
-
+    width: 70%;
+    padding: 2.3%;
+    background-color: #f6f6f6;
+    float: right;
 }
 
 .sc3{
@@ -60,14 +63,16 @@ body{
     box-sizing: border-box;
 }
 
-.white{
+h1{
+    padding: 1%;
     font-family: "Kanit", sans-serif;
-    color: white;
     text-align: center;
     font-size: 130%;
     margin-bottom: 1%;
     margin-top: 0.1%;
 }
+
+
 
 main{
     width: 80%;
@@ -75,12 +80,19 @@ main{
     margin-right: 10%;
 }
 
-.paragraph{
-    text-indent: 20px; /*Espaço no inicio do paragrafo*/
+p{
+    text-indent: 18px; /*Espaço no inicio do paragrafo*/
     line-height: 1.1; /*espaçamento entre as linhas*/
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     font-family: "Fira sans", sans-serif;
     text-align: 120%;
+}
+
+.white{
+    color: white;
+}
+
+.paragraph{
     color: white;
 }
 
@@ -111,6 +123,12 @@ main{
     margin-left: 1%;
 }
 
+.img_float_left{
+    float: left;
+    width: 35%;
+    margin-right: 1%;
+}
+
 .clearfix{
     overflow: auto;
 }
@@ -118,13 +136,27 @@ main{
 
 
 @media screen and (max-width: 768px) {
-    main{
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+    .sc1{
+        margin-left: 2%;
+        margin-right: 1%;
+        width: 93%;
+        padding: 5%;
     }
+    
+    .img_float_right{
+        float: right;
+        width: 40%;
+        margin-left: 2%;
+    }
+
+    .sc2{
+        margin-left: 2%;
+        margin-right: 1%;
+        width: 93%;
+        padding: 5%;
+    }
+
     .sc6{
         width: 100%;
-        background-color: #f6f0e0;
     }
 }
