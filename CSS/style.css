@@ -1,0 +1,130 @@
+body{
+    background-image: url(../img/25ac7398f3b5522cd13f89570710389d455306dar1-450-267v2_uhq\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.header{
+    background-color: #C05299;
+    padding: 2%;
+}
+
+.img_logo{
+    width: 10%;
+}
+
+.img_banner{
+    width: 100%;
+    position: center;
+}
+
+.sc1{
+    width: 70%;
+    padding: 2.3%;
+    background-color: #240046;
+}
+
+.sc2{
+
+}
+
+.sc3{
+    width: 100%;
+    background-color: #f6f0e0;
+}
+
+
+
+.sc6{
+    width: 100%;
+    background-color: #f6f0e0;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.card{
+    width: calc(33.33% - 10px);
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.white{
+    font-family: "Kanit", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 130%;
+    margin-bottom: 1%;
+    margin-top: 0.1%;
+}
+
+main{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.paragraph{
+    text-indent: 20px; /*Espaço no inicio do paragrafo*/
+    line-height: 1.1; /*espaçamento entre as linhas*/
+    margin-bottom: 1%;
+    font-family: "Fira sans", sans-serif;
+    text-align: 120%;
+    color: white;
+}
+
+.paragraph_quote{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.quote{
+    text-indent: 15px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1%;
+    text-align: 99%;
+}
+
+.link{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    text-decoration: underline 1px; /*sublinhado abaixo do texto*/
+}
+
+.img_float_right{
+    float: right;
+    width: 30%;
+    margin-left: 1%;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    main{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sc6{
+        width: 100%;
+        background-color: #f6f0e0;
+    }
+}
