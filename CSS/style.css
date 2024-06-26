@@ -16,32 +16,47 @@ body{
     width: 10%;
 }
 
+.menu{
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.col-3{
+    width: calc(3333.33% - 10px);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    background-color: red;
+}
+
 .img_banner{
     width: 100%;
-    position: center;
 }
 
 .sc1{
     width: 70%;
-    padding: 2.3%;
+    padding: 3%;
     background-color: #240046;
+    margin-right: 30%;
 }
 
 .sc2{
     width: 70%;
-    padding: 2.3%;
-    background-color: #f6f6f6;
-    float: right;
+    padding: 3%;
+    background-color: #f6f0e0;
+    margin-left: 30%;
 }
 
 .sc3{
+    padding: 3%;
     width: 100%;
-    background-color: #f6f0e0;
+    background-color: #240046;
 }
 
-
-
 .sc6{
+    padding: 3%;
     width: 100%;
     background-color: #f6f0e0;
 
@@ -55,7 +70,7 @@ body{
 }
 
 .card{
-    width: calc(33.33% - 10px);
+    width: calc(33.33% - 15px);
     background-color: red;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -63,25 +78,35 @@ body{
     box-sizing: border-box;
 }
 
+.img_card{
+    width: 100%;
+}
+
+h5{
+    text-align: center;
+    color: white;
+    margin-bottom: 3%;
+    font-family: "Kanit", sans-serif;
+}
+
 h1{
     font-family: "Kanit", sans-serif;
     text-align: center;
-    font-size: 130%;
+    font-size: 150%;
     margin-bottom: 1%;
-    margin-top: 0.1%;
+    margin-top: 0.8%;
 }
 
-
-
 main{
-    width: 80%;
+    width: 75%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 p{
     text-indent: 18px; /*Espaço no inicio do paragrafo*/
-    line-height: 1.1; /*espaçamento entre as linhas*/
+    line-height: 1; /*espaçamento entre as linhas*/
+    margin-top: 2%;
     margin-bottom: 2%;
     font-family: "Fira sans", sans-serif;
     text-align: 120%;
@@ -89,6 +114,7 @@ p{
 
 .white{
     color: white;
+    margin-bottom: 3%;
 }
 
 .paragraph{
@@ -119,17 +145,19 @@ p{
 .img_float_right{
     float: right;
     width: 30%;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 .img_float_left{
     float: left;
-    width: 35%;
-    margin-right: 1%;
+    width: 30%;
+    margin-right: 3%;
 }
 
-.clearfix{
-    overflow: auto;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .galeria{
@@ -138,38 +166,87 @@ p{
 }
 
 .pic{
-    width: 20%;
     padding: 2%;
 }
 
 .img_gal{
-
-    width: 110%;
-
+    width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+legend{
+    margin-top: 1%;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 110%;
+}
+
+.le_gale_w{
+    color: white;
+}
+
+.le_gale_b{
+    color: black;
+}
+
+@media screen and (max-width: 1060px) {
+    .card{
+        width: calc(50% - 20px);
+    }
     .sc1{
-        margin-left: 2%;
-        margin-right: 1%;
-        width: 93%;
-        padding: 5%;
+        width: 100%;
+        padding: 3%;
+        background-color: #240046;
+        margin-right: 0%;
     }
     
-    .img_float_right{
-        float: right;
-        width: 40%;
-        margin-left: 2%;
-    }
-
     .sc2{
-        margin-left: 2%;
-        margin-right: 1%;
-        width: 93%;
-        padding: 5%;
-    }
-
-    .sc6{
         width: 100%;
+        padding: 3%;
+        background-color: #f6f0e0;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card{
+        width: calc(100% - 20px);
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .img_float_left{
+        float: left;
+        width: 35%;
+        margin-right: 2%;
+        margin-top: 17%;
+        margin-bottom: 17%;
+    }
+}
+
+@media screen and (max-width: 1042px) {
+    .img_float_left{
+        float: left;
+        width: 35%;
+        margin-right: 2%;
+        margin-top: 17%;
+        margin-bottom: 17%;
+    }
+}
+
+@media screen and (max-width: 1805px) {
+    .galeria{
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-wrap: row wrap;
+    }
+}
+
+@media screen and (max-width: 1805px) {
+    .galeria{
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-wrap: row wrap;
     }
 }
