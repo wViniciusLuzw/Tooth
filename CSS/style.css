@@ -31,8 +31,8 @@ body{
 
 .col-3{
     width: calc(15% - 10px);
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     padding: 15px;
     background-color: #240046;
     box-sizing: border-box;
@@ -218,14 +218,17 @@ p{
 .galeria{
     display: flex;
     flex-wrap: row wrap;
+    padding: 1%;
 }
 
 .pic{
-    padding: 2%;
+    padding: 1%;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .img_gal{
-    width: 100%;
+    width: calc(100%);
 }
 
 legend{
