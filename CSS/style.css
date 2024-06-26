@@ -18,17 +18,18 @@ body{
 
 .menu{
     display: flex;
-    flex-wrap: row wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 10px;
 }
 
 .col-3{
-    width: calc(3333.33% - 10px);
+    width: calc(15% - 10px);
     margin-left: 1%;
     margin-right: 1%;
     padding: 12px;
     background-color: #240046;
+    box-sizing: border-box;
 }
 
 h6{
@@ -256,9 +257,13 @@ footer{
 }
 
 @media screen and (max-width: 480px) {
-    .card{
+    .card {
         width: calc(100%);
     }
+    .col-3{
+        width: calc(100% - 10px);
+    }
+
 }
 
 @media screen and (max-width: 1110px) {
