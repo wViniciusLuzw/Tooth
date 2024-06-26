@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/BOCW-ZOMBIES-001.jpg);
+    background-image: url(../img/25ac7398f3b5522cd13f89570710389d455306dar1-450-267v2_uhq\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,25 +9,31 @@ body{
 
 .header{
     background-color: #C05299;
-    padding: 2%;
+    padding: 1%;
+    position: fixed;
 }
 
 .img_logo{
     width: 10%;
 }
 
+.logo{
+    padding: 1%;
+
+}
+
 .menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 10px;
+    margin: 15px;
 }
 
 .col-3{
     width: calc(15% - 10px);
     margin-left: 1%;
     margin-right: 1%;
-    padding: 12px;
+    padding: 15px;
     background-color: #240046;
     box-sizing: border-box;
 }
@@ -39,6 +45,7 @@ h6{
 }
 
 .img_banner{
+    margin-top: 10%;
     width: 100%;
 }
 
@@ -160,8 +167,12 @@ p{
     margin-bottom: 3%;
 }
 
-.paragraph{
+.paragraph_w{
     color: white;
+}
+
+.paragraph_b{
+    color: black
 }
 
 .paragraph_quote{
@@ -195,6 +206,7 @@ p{
     float: left;
     width: 30%;
     margin-right: 3%;
+    margin-bottom: 2%;
 }
 
 .clearfix::after {
@@ -266,25 +278,6 @@ footer{
 
 }
 
-@media screen and (max-width: 1110px) {
-    .img_float_left{
-        float: left;
-        width: 35%;
-        margin-right: 2%;
-        margin-top: 17%;
-        margin-bottom: 17%;
-    }
-}
-
-@media screen and (max-width: 1042px) {
-    .img_float_left{
-        float: left;
-        width: 35%;
-        margin-right: 2%;
-        margin-top: 17%;
-        margin-bottom: 17%;
-    }
-}
 
 @media screen and (max-width: 1805px) {
     .galeria{
