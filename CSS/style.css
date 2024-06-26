@@ -15,11 +15,12 @@ body{
 
 .img_logo{
     width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .logo{
     padding: 1%;
-
 }
 
 .menu{
@@ -216,19 +217,21 @@ p{
 }
 
 .galeria{
+    justify-content: space-between;
     display: flex;
     flex-wrap: row wrap;
-    padding: 1%;
+    margin: 15px;
 }
 
 .pic{
+    background-color: #D62828;
+    box-sizing: border-box;
     padding: 1%;
-    width: 100%;
-    justify-content: space-between;
+    width: calc(25% - 15px)
 }
 
 .img_gal{
-    width: calc(100%);
+    width: 100%;
 }
 
 legend{
@@ -250,6 +253,13 @@ footer{
     margin-top: 1%;
     padding: 3%;
     background-color: #240046;
+}
+
+.li_p{
+    color: black;
+    font-family: "Fira sans", sans-serif;
+    text-indent: 18px;
+    text-align: ;
 }
 
 @media screen and (max-width: 1060px) {
