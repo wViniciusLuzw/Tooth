@@ -111,7 +111,7 @@ h1{
     font-family: 'Ubuntu';
     color: white;
     font-size: 1.7rem;
-    margin-top: 1.5%;
+    margin-top: 2%;
     text-align: center;
 }
 
@@ -127,7 +127,8 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 30px;
+    margin-bottom: 3.5%;
 }
 
 .card{
@@ -137,17 +138,20 @@ h1{
     padding: 20px;*/
     box-sizing: border-box;
     width: calc(33.33% - 20px);
-    /*background-color: #D62828;*/
+    border-radius: 7px;
+    margin-top: 3%;
 }
+
 
 .h6_card{
     position: absolute;
+    text-align: center;
     color: white;
     background-color: #D62828;
-    margin-left: 47%;
-    margin-right: 47%;
-    top: 50%;
     padding: 1%;
+    bottom: 20%;
+    right: 140px;
+    left: 140px;
 }
 
 .img_card1{
@@ -156,14 +160,14 @@ h1{
 }
 
 .h5_card{
-    position: relative;
+    position: absolute;
     background-color: #003049;
     color: white;
     text-align: center;
     padding: 7%;
-    bottom: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
+    top: 80%;
+    right: 60px;
+    left: 60px;
 }
 
 .rod{
