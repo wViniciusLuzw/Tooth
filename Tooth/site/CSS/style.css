@@ -1,0 +1,188 @@
+header{
+    background-color: #EAE2B7;
+    border-bottom: 8px solid #003049;
+}
+
+.logo{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_logo{
+    width: 22%;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #D62828;
+    padding: 0.5%;
+}
+
+.col-3{
+    justify-content: space-between;
+    width: calc(20% - 10px);
+    padding: 7px;
+
+    box-sizing: border-box;
+
+    border: 5px, #F77F00, outset;
+
+    background-color: #FCBF49;
+}
+
+h6{
+    text-align: center;
+    font-family: 'Pixelify Sans';
+    font-size: 1.2rem;
+}
+
+.col-3:hover{
+    background-color: #F77F00;
+    border: 5px, #FCBF49, inset;
+}
+
+.cards1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: #F77F00;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.card1{
+    width: calc(20% - 15px);
+    box-sizing: border-box;
+    background-color: #003049;
+    padding: 20px;
+    border: 5px, outset;
+    border-radius: 15px;
+}
+
+.img_card{
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.txt_cards{
+    color: white;
+    text-align: center;
+    font-family: 'Pixelify Sans';
+}
+
+.p_cards{
+    margin-top: 1%;
+    font-family: 'Ubuntu';
+    color: white;
+}
+
+.card1:hover{
+    background-color: #D62828;
+    border: inset, #EAE2B7, 5px;
+}
+
+.sec_2{
+    background-color: #D62828;
+    margin-top: 15px;
+}
+
+h1{
+    color: white;
+    font-family: 'Pixelify Sans';
+    font-size: 2rem;
+}
+
+.h1_illustra{
+    margin-left: 18%;
+    margin-top: 3.5%;
+}
+
+.gm_illustra{
+    float: right;
+    width: 60%;
+}
+
+.p_illustra{
+    font-family: 'Ubuntu';
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 1.5%;
+    text-align: center;
+}
+
+.clearflix{
+    overflow: auto;
+}
+
+.sec_3{
+    background-color: #003049;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card{
+    position: relative;
+    /*margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;*/
+    box-sizing: border-box;
+    width: calc(33.33% - 20px);
+    /*background-color: #D62828;*/
+}
+
+.h6_card{
+    position: absolute;
+    color: white;
+    background-color: #D62828;
+    margin-left: 47%;
+    margin-right: 47%;
+    top: 50%;
+    padding: 1%;
+}
+
+.img_card1{
+    border-radius: 7px;
+    width: 100%;
+}
+
+.h5_card{
+    position: relative;
+    background-color: #003049;
+    color: white;
+    text-align: center;
+    padding: 7%;
+    bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.rod{
+    padding: 2%;
+    margin-top: 2%;
+    background-color: #F77F00;
+}
+
+
+.rod_h2{
+    text-align: center;
+    margin-left: 10%;
+    width: calc(45% - 5%);
+    text-transform: uppercase;
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+}
+
+.img_logo_rod{
+    float: right;
+    width: 20%;
+}
