@@ -1,6 +1,17 @@
+body{
+    background-image: url(..);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 header{
     background-color: #EAE2B7;
     border-bottom: 8px solid #003049;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .logo{
@@ -10,7 +21,7 @@ header{
 }
 
 .img_logo{
-    width: 22%;
+    width: 18%;
 }
 
 .menu{
@@ -105,9 +116,11 @@ h1{
 .gm_illustra{
     float: right;
     width: 60%;
+    margin-left: 1%;
 }
 
 .p_illustra{
+    margin-left: 1%;
     font-family: 'Ubuntu';
     color: white;
     font-size: 1.7rem;
@@ -127,7 +140,8 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 3.5%;
 }
 
@@ -193,11 +207,52 @@ h1{
 
 .sc_4{
     background-color: #F77F00;
-    margin-left: 2%;
     margin-right: 40%;
-    padding: 2%;
 }
 
 .h1_sc4{
+    margin-right: 5%;
+    margin-left: 5%;
     text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.p_sc4{
+    font-size: 1.4rem;
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.float_sc4{
+    margin-left: 5%;
+    float: right;
+    width: 25%;
+}
+
+.sc_5{
+    background-color: #D62828;
+    margin-left: 40%;
+}
+
+.h1_sc5{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.p_sc5{
+    font-size: 1.4rem;
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.float_sc5{
+    margin-right: 5%;
+    float: left;
+    width: 25%;
 }
