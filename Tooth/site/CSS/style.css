@@ -127,7 +127,7 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 20px;
     margin-bottom: 3.5%;
 }
 
@@ -189,4 +189,15 @@ h1{
 .img_logo_rod{
     float: right;
     width: 20%;
+}
+
+.sc_4{
+    background-color: #F77F00;
+    margin-left: 2%;
+    margin-right: 40%;
+    padding: 2%;
+}
+
+.h1_sc4{
+    text-align: center;
 }
