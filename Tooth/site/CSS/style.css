@@ -180,11 +180,13 @@ h1{
 .img_card1{
     border-radius: 7px;
     width: 100%;
+    
 }
 
 .img_card1:hover{
     border: 3px outset #F77F00;
     width: calc(100% - 3px);
+    transition: .1s;
 }
 
 .h5_card{
