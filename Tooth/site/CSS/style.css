@@ -182,7 +182,13 @@ h1{
     width: 100%;
 }
 
+.img_card1:hover{
+    border: 3px outset #F77F00;
+    width: calc(100% - 3px);
+}
+
 .h5_card{
+    font-family: 'Ubuntu';
     position: absolute;
     background-color: #003049;
     color: white;
@@ -318,4 +324,14 @@ h1{
 
 .img_banner{
     width: 100%;
+}
+
+.logo_banner{
+    position: absolute;
+    left: 1%;
+    top: 112%;
+}
+
+.logo_fnaf_pit{
+    width: 45%;
 }
