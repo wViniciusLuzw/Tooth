@@ -219,6 +219,7 @@ h1{
 }
 
 .p_sc4{
+    font-family: 'Ubuntu';
     font-size: 1.4rem;
     margin-top: 3%;
     text-align: center;
@@ -231,28 +232,21 @@ h1{
     width: 25%;
 }
 
-.sc_5{
-    background-color: #D62828;
-    margin-left: 40%;
+.sec_form{
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    background-color: #003049;
 }
 
-.h1_sc5{
-    margin-right: 5%;
-    margin-left: 5%;
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.form_login{
+    color: white;
+    font-family: 'Pixelify Sans';
 }
 
-.p_sc5{
-    font-size: 1.4rem;
-    margin-top: 3%;
-    text-align: center;
-    margin-left: 5%;
-}
-
-.float_sc5{
-    margin-right: 5%;
-    float: left;
-    width: 25%;
+.input_cont{
+    width: 100%;
+    padding: 1%;
+    display: inline-block;
+    box-sizing: border-box;
 }
